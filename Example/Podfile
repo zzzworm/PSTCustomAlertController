@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PSTCustomAlertController_Example' do
+  pod 'PSTCustomAlertController', :path => '../'
+
+  target 'PSTCustomAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
