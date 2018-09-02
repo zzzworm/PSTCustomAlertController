@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009D654764265ADFA6D779A5FAEDAFB7 /* TYShowAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE83D01067A3A7D9ACEE317AA6CDA295 /* TYShowAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E34AAF859283F2C7FE3B7AFD2B1247 /* Pods-PSTCustomAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E2D1AF536CBEAC268172345F58342F /* Pods-PSTCustomAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF00D8B3B1045AD11AB641FFC70D4E4 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC768C1548FBEEF0ECE99094E2FDCF0C /* PSTAlertController.m */; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */; };
+		15370922DD87DC91A142746DB3F8955E /* Pods-PSTCustomAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FDAF9F743CA19CEBD4B8ED3F3BC2CC /* Pods-PSTCustomAlertController_Tests-dummy.m */; };
+		1EAD2E7D3F7711BD65509C8E2BD236B1 /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4419B69C0C1CA66D065E80079D221C /* TYBaseAnimation.m */; };
+		20B9963A892221F71D528FCAEB285D84 /* TYAlertFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F0300FB99D13C3BECABF1EC41837F9DD /* TYAlertFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2280283D86F7CD8DD13FE0FE35A56C8B /* TYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ED489F983FD439FEF28B627CB6F24B /* TYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24005B2BB7B162B9D34B80AE8E4B0E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		2545FF6138477A3E0044CE3111F85D43 /* Pods-PSTCustomAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D892A9CDFA5475834A16DA0F8C64D7B0 /* Pods-PSTCustomAlertController_Example-dummy.m */; };
+		26DC510672ED5E685A8426E837122594 /* TYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B45C58828419A314DD9A306FE788D9 /* TYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33ACE9AFD057490058270D5870F35B0A /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		350C2B4786E114028C27584C0D2EC9E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		3CCC2980918D15418421054213F350A9 /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A233A1FD43CFFD1AB231C6D28E027E87 /* TYAlertDropDownAnimation.m */; };
+		3EEE65A9414CB471EE90FB1A363097FC /* TYAlertDropDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C31859F026A4872B4E4BE2D6BAE72638 /* TYAlertDropDownAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		514EC7733B3222E6B2B968E15D271B56 /* UIView+TYAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5811EBE734C73FAB042C9E0E4917333D /* UIView+TYAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		5497F36AD480E9F360B4962772E9EA34 /* PSTCustomAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4ED205A06B6058B15B4E68931E571 /* PSTCustomAlertController-dummy.m */; };
+		55630718B34FF5F3AA6C6368442695C6 /* UIView+borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE88A1A74EB6F1951333316C75A70A4 /* UIView+borders.m */; };
+		5647CEBCEB5E04A54D96F1325DD846B2 /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB130D3CDB4B810E962A811A0299C1 /* UIView+TYAlertView.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A10433194B122AF11FA1F64450F9DD /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A99DA20068B4572947BAE60ED9FFA /* TYAlertFadeAnimation.m */; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		76991F15514E9960A41657758ACB7BD1 /* UIView+borders.h in Headers */ = {isa = PBXBuildFile; fileRef = 541EA6EDBD6C53E5242225BD84CDAD50 /* UIView+borders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B48EC64AC2B60298970D5ECDEE2BA0A /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EE4304B8061AB8A0F5125D8EB3B7FD /* TYAlertController+TransitionAnimate.m */; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6B05C49262E5BEF32D2923237B58FF /* TYBaseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B186FED8189E6446DCF7483CCA3D8A8 /* TYBaseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		A4F79801E8F0E27C4D1DE8A161EE5D60 /* TYAlertScaleFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E6457F3C2255E644727B0C53B9638312 /* TYAlertScaleFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8655EEDF7B8417F2FC0B588B0725AEC /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B64755EC4A83713D35607FC0366A4 /* TYAlertView.m */; };
+		B95DC494842665D787A00E2DBC239700 /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FE4ECB410167A85D8A1E54B46B745 /* TYAlertScaleFadeAnimation.m */; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA4EF44FB05818A81363534DDF1ADA5A /* PSTCustomAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C2B5B0F56E63757B4084828D6A92A9 /* PSTCustomAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEAB863B05B2C6F8C812A38D05333488 /* UIView+TYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = B441166936967986F7BFB3FC6331CAF7 /* UIView+TYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF185FB89F6C8F5C26C8555CF1164B3C /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A7E964281A43906DF7057BAC3FAF4 /* TYShowAlertView.m */; };
+		E138C952C5999A412B3E73443B51493F /* Pods-PSTCustomAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C47675CD5398748FCFCC14F6EC8BF6 /* Pods-PSTCustomAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E384C78D80FBCAC352AC024E48DF8325 /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C2B873CEF4D1E9915403C0B85979E /* UIView+TYAutoLayout.m */; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		E9148882D9BDDD3A4BE3CD69DF714744 /* PSTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2DA315A5C6A593E98B59FE1894C921 /* PSTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A6F5E98F7957090409D00F23A2D4E4 /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D04DE9D3231345A86DCEC853F10704 /* TYAlertController.m */; };
+		F0F86788AD7F128B8CAEA9B8F95B334C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C8C5D78485BCE06258C97DD859D1571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		2D100E8479AD6CA6FAE04B28CF84FBBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD66F7FECDE7ED339D0A9FBFE3A5F68;
+			remoteInfo = PSTCustomAlertController;
+		};
+		66B0539D22A47F3D85BA9B88DAA87EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		E60138867B7B484E1BBFF59A295E6BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90725B5F415FE6F20E6248C236809D7F;
+			remoteInfo = "Pods-PSTCustomAlertController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0080F549B79E48113882F0A9BD763DA4 /* Pods-PSTCustomAlertController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSTCustomAlertController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		02EE4304B8061AB8A0F5125D8EB3B7FD /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		0F75F3D2D15E9E3996DA2CFAB5F86959 /* Pods-PSTCustomAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTCustomAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B186FED8189E6446DCF7483CCA3D8A8 /* TYBaseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		1E2DA315A5C6A593E98B59FE1894C921 /* PSTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		29B45C58828419A314DD9A306FE788D9 /* TYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		2C6F549704C1ED3E7B2908F5B829CF15 /* Pods-PSTCustomAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSTCustomAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		31F35B3F6EB2F99FB07B177F314C9732 /* PSTCustomAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSTCustomAlertController.modulemap; sourceTree = "<group>"; };
+		33E2D1AF536CBEAC268172345F58342F /* Pods-PSTCustomAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSTCustomAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
+		34D7D58BEA77146A24125AC18F33B44E /* Pods-PSTCustomAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTCustomAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		369E404ABCB9F1B82E2F936AA326CDF8 /* Pods-PSTCustomAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSTCustomAlertController_Tests.modulemap"; sourceTree = "<group>"; };
+		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3701C14AEB46A795CAD57BAB0FE33276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		38C9BD9D5D4810A4ECBDA5E9E4BA50A6 /* Pods-PSTCustomAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSTCustomAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3B4419B69C0C1CA66D065E80079D221C /* TYBaseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		3E8716E3E12FBDB49276974372A0B062 /* Pods-PSTCustomAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTCustomAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		450FE4ECB410167A85D8A1E54B46B745 /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		47D04DE9D3231345A86DCEC853F10704 /* TYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		49E1C62501A74FC68CF14AF4FDD7465D /* PSTCustomAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTCustomAlertController-prefix.pch"; sourceTree = "<group>"; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		541EA6EDBD6C53E5242225BD84CDAD50 /* UIView+borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+borders.h"; sourceTree = "<group>"; };
+		5811EBE734C73FAB042C9E0E4917333D /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5AFB130D3CDB4B810E962A811A0299C1 /* UIView+TYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		5C4A7E964281A43906DF7057BAC3FAF4 /* TYShowAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		639479CB267412B395E389F112DAC928 /* Pods_PSTCustomAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTCustomAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C2B5B0F56E63757B4084828D6A92A9 /* PSTCustomAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTCustomAlertController-umbrella.h"; sourceTree = "<group>"; };
+		68995814F5A806B336060781AF19D2A7 /* Pods-PSTCustomAlertController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSTCustomAlertController_Tests-resources.sh"; sourceTree = "<group>"; };
+		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE88A1A74EB6F1951333316C75A70A4 /* UIView+borders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+borders.m"; sourceTree = "<group>"; };
+		6DF64CCB7E093A924C2C7929FE827694 /* PSTCustomAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PSTCustomAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		6FA4ED205A06B6058B15B4E68931E571 /* PSTCustomAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSTCustomAlertController-dummy.m"; sourceTree = "<group>"; };
+		758CB59C1706319BFAE959DD787AA8AC /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7675B6971AE0E256B4BC7E1D673F9CB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5B64755EC4A83713D35607FC0366A4 /* TYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		97C47675CD5398748FCFCC14F6EC8BF6 /* Pods-PSTCustomAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSTCustomAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		987C2B873CEF4D1E9915403C0B85979E /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		997A99DA20068B4572947BAE60ED9FFA /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		9B86F95A237FFC65C926208B99BEBF92 /* Pods_PSTCustomAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTCustomAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A233A1FD43CFFD1AB231C6D28E027E87 /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		A509157C6FA9C796A71F52B20FC2DA16 /* Pods-PSTCustomAlertController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSTCustomAlertController_Example-resources.sh"; sourceTree = "<group>"; };
+		AC8007401C0620AD5585B5D6AB1380EE /* PSTCustomAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSTCustomAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		AECC07231EF2DD3ACE61B41EED0B8E83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2ED489F983FD439FEF28B627CB6F24B /* TYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		B441166936967986F7BFB3FC6331CAF7 /* UIView+TYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		B5FDAF9F743CA19CEBD4B8ED3F3BC2CC /* Pods-PSTCustomAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSTCustomAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
+		BD3ADC2C45AC5F58894D5C0B3E78F923 /* Pods-PSTCustomAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSTCustomAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1AEE73C4BE8337C62FC161D79D66E34 /* PSTCustomAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSTCustomAlertController.xcconfig; sourceTree = "<group>"; };
+		C2443B2533B17E231E861460154499B3 /* Pods-PSTCustomAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSTCustomAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C31859F026A4872B4E4BE2D6BAE72638 /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C5935C4570236A0B5E5B0DAB130C73AF /* Pods-PSTCustomAlertController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSTCustomAlertController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CBA95BC4BE2C24AE4A87BA8EFAF1902E /* Pods-PSTCustomAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSTCustomAlertController_Example.modulemap"; sourceTree = "<group>"; };
+		CE83D01067A3A7D9ACEE317AA6CDA295 /* TYShowAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		D12963B4A9627184A09CE60A5106D9C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D892A9CDFA5475834A16DA0F8C64D7B0 /* Pods-PSTCustomAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSTCustomAlertController_Example-dummy.m"; sourceTree = "<group>"; };
+		E35BF514FDFAB7C3C7379F3811425EE0 /* Pods-PSTCustomAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSTCustomAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E5E2909D133E8EB371F4FA72EF841665 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6457F3C2255E644727B0C53B9638312 /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		F0300FB99D13C3BECABF1EC41837F9DD /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FC768C1548FBEEF0ECE99094E2FDCF0C /* PSTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSTAlertController.m; sourceTree = "<group>"; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F967F5AE102EC8F896DCE3506D7C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F86788AD7F128B8CAEA9B8F95B334C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2865394E45E7706E2489B67096D9269D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C2B4786E114028C27584C0D2EC9E1 /* Foundation.framework in Frameworks */,
+				33ACE9AFD057490058270D5870F35B0A /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F13CC3A098F651119EAE9E2DB2C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24005B2BB7B162B9D34B80AE8E4B0E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */,
+				11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FF35C09792D5F8B87A2AE5F81BB3DD /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				B2ED489F983FD439FEF28B627CB6F24B /* TYAlertController.h */,
+				47D04DE9D3231345A86DCEC853F10704 /* TYAlertController.m */,
+				02EE4304B8061AB8A0F5125D8EB3B7FD /* TYAlertController+TransitionAnimate.m */,
+				C31859F026A4872B4E4BE2D6BAE72638 /* TYAlertDropDownAnimation.h */,
+				A233A1FD43CFFD1AB231C6D28E027E87 /* TYAlertDropDownAnimation.m */,
+				F0300FB99D13C3BECABF1EC41837F9DD /* TYAlertFadeAnimation.h */,
+				997A99DA20068B4572947BAE60ED9FFA /* TYAlertFadeAnimation.m */,
+				E6457F3C2255E644727B0C53B9638312 /* TYAlertScaleFadeAnimation.h */,
+				450FE4ECB410167A85D8A1E54B46B745 /* TYAlertScaleFadeAnimation.m */,
+				29B45C58828419A314DD9A306FE788D9 /* TYAlertView.h */,
+				8F5B64755EC4A83713D35607FC0366A4 /* TYAlertView.m */,
+				1B186FED8189E6446DCF7483CCA3D8A8 /* TYBaseAnimation.h */,
+				3B4419B69C0C1CA66D065E80079D221C /* TYBaseAnimation.m */,
+				CE83D01067A3A7D9ACEE317AA6CDA295 /* TYShowAlertView.h */,
+				5C4A7E964281A43906DF7057BAC3FAF4 /* TYShowAlertView.m */,
+				B441166936967986F7BFB3FC6331CAF7 /* UIView+TYAlertView.h */,
+				5AFB130D3CDB4B810E962A811A0299C1 /* UIView+TYAlertView.m */,
+				5811EBE734C73FAB042C9E0E4917333D /* UIView+TYAutoLayout.h */,
+				987C2B873CEF4D1E9915403C0B85979E /* UIView+TYAutoLayout.m */,
+			);
+			name = TYAlertController;
+			path = PSTCustomAlertController/Classes/TYAlertController;
+			sourceTree = "<group>";
+		};
+		419CF4AA5C3A74FA10159936B1CD610D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7675B6971AE0E256B4BC7E1D673F9CB8 /* Info.plist */,
+				31F35B3F6EB2F99FB07B177F314C9732 /* PSTCustomAlertController.modulemap */,
+				C1AEE73C4BE8337C62FC161D79D66E34 /* PSTCustomAlertController.xcconfig */,
+				6FA4ED205A06B6058B15B4E68931E571 /* PSTCustomAlertController-dummy.m */,
+				49E1C62501A74FC68CF14AF4FDD7465D /* PSTCustomAlertController-prefix.pch */,
+				65C2B5B0F56E63757B4084828D6A92A9 /* PSTCustomAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSTCustomAlertController";
+			sourceTree = "<group>";
+		};
+		4CB138CAAB7A334E8B3F001F6F2AD63B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				541EA6EDBD6C53E5242225BD84CDAD50 /* UIView+borders.h */,
+				6DE88A1A74EB6F1951333316C75A70A4 /* UIView+borders.m */,
+			);
+			name = Utility;
+			path = PSTCustomAlertController/Classes/Utility;
+			sourceTree = "<group>";
+		};
+		534B1A6AF683EF4965F06D9F5E29012D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D12963B4A9627184A09CE60A5106D9C2 /* LICENSE */,
+				6DF64CCB7E093A924C2C7929FE827694 /* PSTCustomAlertController.podspec */,
+				AECC07231EF2DD3ACE61B41EED0B8E83 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
+				DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A46FC28A0E52F37DCAEE836AA45554AC /* Development Pods */,
+				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
+				86A2395AF1C2CE078E1FC18083D4D831 /* Products */,
+				BB359C33D9B5713D72F7742F6F2DEE59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86A2395AF1C2CE078E1FC18083D4D831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758CB59C1706319BFAE959DD787AA8AC /* Masonry.framework */,
+				639479CB267412B395E389F112DAC928 /* Pods_PSTCustomAlertController_Example.framework */,
+				9B86F95A237FFC65C926208B99BEBF92 /* Pods_PSTCustomAlertController_Tests.framework */,
+				AC8007401C0620AD5585B5D6AB1380EE /* PSTCustomAlertController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A46FC28A0E52F37DCAEE836AA45554AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9717802CE263395C7362F567855CCE /* PSTCustomAlertController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B5A3D59FC63A319C3785C847C40B33A3 /* PSTAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				1E2DA315A5C6A593E98B59FE1894C921 /* PSTAlertController.h */,
+				FC768C1548FBEEF0ECE99094E2FDCF0C /* PSTAlertController.m */,
+			);
+			name = PSTAlertController;
+			path = PSTCustomAlertController/Classes/PSTAlertController;
+			sourceTree = "<group>";
+		};
+		B6E24C10B42666E74355BA91E736B828 /* Pods-PSTCustomAlertController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3701C14AEB46A795CAD57BAB0FE33276 /* Info.plist */,
+				CBA95BC4BE2C24AE4A87BA8EFAF1902E /* Pods-PSTCustomAlertController_Example.modulemap */,
+				C5935C4570236A0B5E5B0DAB130C73AF /* Pods-PSTCustomAlertController_Example-acknowledgements.markdown */,
+				BD3ADC2C45AC5F58894D5C0B3E78F923 /* Pods-PSTCustomAlertController_Example-acknowledgements.plist */,
+				D892A9CDFA5475834A16DA0F8C64D7B0 /* Pods-PSTCustomAlertController_Example-dummy.m */,
+				38C9BD9D5D4810A4ECBDA5E9E4BA50A6 /* Pods-PSTCustomAlertController_Example-frameworks.sh */,
+				A509157C6FA9C796A71F52B20FC2DA16 /* Pods-PSTCustomAlertController_Example-resources.sh */,
+				33E2D1AF536CBEAC268172345F58342F /* Pods-PSTCustomAlertController_Example-umbrella.h */,
+				3E8716E3E12FBDB49276974372A0B062 /* Pods-PSTCustomAlertController_Example.debug.xcconfig */,
+				0F75F3D2D15E9E3996DA2CFAB5F86959 /* Pods-PSTCustomAlertController_Example.release.xcconfig */,
+			);
+			name = "Pods-PSTCustomAlertController_Example";
+			path = "Target Support Files/Pods-PSTCustomAlertController_Example";
+			sourceTree = "<group>";
+		};
+		BB359C33D9B5713D72F7742F6F2DEE59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E24C10B42666E74355BA91E736B828 /* Pods-PSTCustomAlertController_Example */,
+				EB6067A97E3E3F42C52B4EF92BC7E38D /* Pods-PSTCustomAlertController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
+				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
+				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
+				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
+				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
+				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */,
+				B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC9717802CE263395C7362F567855CCE /* PSTCustomAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				534B1A6AF683EF4965F06D9F5E29012D /* Pod */,
+				B5A3D59FC63A319C3785C847C40B33A3 /* PSTAlertController */,
+				419CF4AA5C3A74FA10159936B1CD610D /* Support Files */,
+				15FF35C09792D5F8B87A2AE5F81BB3DD /* TYAlertController */,
+				4CB138CAAB7A334E8B3F001F6F2AD63B /* Utility */,
+			);
+			name = PSTCustomAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB6067A97E3E3F42C52B4EF92BC7E38D /* Pods-PSTCustomAlertController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2909D133E8EB371F4FA72EF841665 /* Info.plist */,
+				369E404ABCB9F1B82E2F936AA326CDF8 /* Pods-PSTCustomAlertController_Tests.modulemap */,
+				C2443B2533B17E231E861460154499B3 /* Pods-PSTCustomAlertController_Tests-acknowledgements.markdown */,
+				2C6F549704C1ED3E7B2908F5B829CF15 /* Pods-PSTCustomAlertController_Tests-acknowledgements.plist */,
+				B5FDAF9F743CA19CEBD4B8ED3F3BC2CC /* Pods-PSTCustomAlertController_Tests-dummy.m */,
+				0080F549B79E48113882F0A9BD763DA4 /* Pods-PSTCustomAlertController_Tests-frameworks.sh */,
+				68995814F5A806B336060781AF19D2A7 /* Pods-PSTCustomAlertController_Tests-resources.sh */,
+				97C47675CD5398748FCFCC14F6EC8BF6 /* Pods-PSTCustomAlertController_Tests-umbrella.h */,
+				34D7D58BEA77146A24125AC18F33B44E /* Pods-PSTCustomAlertController_Tests.debug.xcconfig */,
+				E35BF514FDFAB7C3C7379F3811425EE0 /* Pods-PSTCustomAlertController_Tests.release.xcconfig */,
+			);
+			name = "Pods-PSTCustomAlertController_Tests";
+			path = "Target Support Files/Pods-PSTCustomAlertController_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D22DFE61AF6343A876CD3F215E270C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E34AAF859283F2C7FE3B7AFD2B1247 /* Pods-PSTCustomAlertController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A5E339894B9EAD0959E7ADF0AD4859 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9148882D9BDDD3A4BE3CD69DF714744 /* PSTAlertController.h in Headers */,
+				CA4EF44FB05818A81363534DDF1ADA5A /* PSTCustomAlertController-umbrella.h in Headers */,
+				2280283D86F7CD8DD13FE0FE35A56C8B /* TYAlertController.h in Headers */,
+				3EEE65A9414CB471EE90FB1A363097FC /* TYAlertDropDownAnimation.h in Headers */,
+				20B9963A892221F71D528FCAEB285D84 /* TYAlertFadeAnimation.h in Headers */,
+				A4F79801E8F0E27C4D1DE8A161EE5D60 /* TYAlertScaleFadeAnimation.h in Headers */,
+				26DC510672ED5E685A8426E837122594 /* TYAlertView.h in Headers */,
+				9C6B05C49262E5BEF32D2923237B58FF /* TYBaseAnimation.h in Headers */,
+				009D654764265ADFA6D779A5FAEDAFB7 /* TYShowAlertView.h in Headers */,
+				76991F15514E9960A41657758ACB7BD1 /* UIView+borders.h in Headers */,
+				CEAB863B05B2C6F8C812A38D05333488 /* UIView+TYAlertView.h in Headers */,
+				514EC7733B3222E6B2B968E15D271B56 /* UIView+TYAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB64403C96F2A7E6D893118C1E25DA6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E138C952C5999A412B3E73443B51493F /* Pods-PSTCustomAlertController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AD66F7FECDE7ED339D0A9FBFE3A5F68 /* PSTCustomAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD51846118EA815AFE533E6F8ABFE7F9 /* Build configuration list for PBXNativeTarget "PSTCustomAlertController" */;
+			buildPhases = (
+				C8731DFE49593A1BD80D9500A01C7C96 /* Sources */,
+				2865394E45E7706E2489B67096D9269D /* Frameworks */,
+				82A5E339894B9EAD0959E7ADF0AD4859 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEB0374E5CAA2AA5DEA4CEFF3EE83C4 /* PBXTargetDependency */,
+			);
+			name = PSTCustomAlertController;
+			productName = PSTCustomAlertController;
+			productReference = AC8007401C0620AD5585B5D6AB1380EE /* PSTCustomAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C72A95526A3AAA2F2F3DC6AC29E53C7 /* Pods-PSTCustomAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0B93BE9B7D84181B37794442474A6C /* Build configuration list for PBXNativeTarget "Pods-PSTCustomAlertController_Tests" */;
+			buildPhases = (
+				F1D77B4094205869F9B40FF7BC5CC323 /* Sources */,
+				502F13CC3A098F651119EAE9E2DB2C9E /* Frameworks */,
+				AB64403C96F2A7E6D893118C1E25DA6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9653CC6BB5F79EE39BFC7894866CC7C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-PSTCustomAlertController_Tests";
+			productName = "Pods-PSTCustomAlertController_Tests";
+			productReference = 9B86F95A237FFC65C926208B99BEBF92 /* Pods_PSTCustomAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90725B5F415FE6F20E6248C236809D7F /* Pods-PSTCustomAlertController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28AAC8C3482D6D708E986C079E3FC09 /* Build configuration list for PBXNativeTarget "Pods-PSTCustomAlertController_Example" */;
+			buildPhases = (
+				91480E5E57C7E25AB9AF407043A317FA /* Sources */,
+				14F967F5AE102EC8F896DCE3506D7C9F /* Frameworks */,
+				0D22DFE61AF6343A876CD3F215E270C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93FF6EB28824B950EED912259C040FC5 /* PBXTargetDependency */,
+				9E188942EAAA1B69B016264D8B548749 /* PBXTargetDependency */,
+			);
+			name = "Pods-PSTCustomAlertController_Example";
+			productName = "Pods-PSTCustomAlertController_Example";
+			productReference = 639479CB267412B395E389F112DAC928 /* Pods_PSTCustomAlertController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 758CB59C1706319BFAE959DD787AA8AC /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 86A2395AF1C2CE078E1FC18083D4D831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				90725B5F415FE6F20E6248C236809D7F /* Pods-PSTCustomAlertController_Example */,
+				4C72A95526A3AAA2F2F3DC6AC29E53C7 /* Pods-PSTCustomAlertController_Tests */,
+				1AD66F7FECDE7ED339D0A9FBFE3A5F68 /* PSTCustomAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91480E5E57C7E25AB9AF407043A317FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2545FF6138477A3E0044CE3111F85D43 /* Pods-PSTCustomAlertController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8731DFE49593A1BD80D9500A01C7C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF00D8B3B1045AD11AB641FFC70D4E4 /* PSTAlertController.m in Sources */,
+				5497F36AD480E9F360B4962772E9EA34 /* PSTCustomAlertController-dummy.m in Sources */,
+				7B48EC64AC2B60298970D5ECDEE2BA0A /* TYAlertController+TransitionAnimate.m in Sources */,
+				E9A6F5E98F7957090409D00F23A2D4E4 /* TYAlertController.m in Sources */,
+				3CCC2980918D15418421054213F350A9 /* TYAlertDropDownAnimation.m in Sources */,
+				67A10433194B122AF11FA1F64450F9DD /* TYAlertFadeAnimation.m in Sources */,
+				B95DC494842665D787A00E2DBC239700 /* TYAlertScaleFadeAnimation.m in Sources */,
+				B8655EEDF7B8417F2FC0B588B0725AEC /* TYAlertView.m in Sources */,
+				1EAD2E7D3F7711BD65509C8E2BD236B1 /* TYBaseAnimation.m in Sources */,
+				DF185FB89F6C8F5C26C8555CF1164B3C /* TYShowAlertView.m in Sources */,
+				55630718B34FF5F3AA6C6368442695C6 /* UIView+borders.m in Sources */,
+				5647CEBCEB5E04A54D96F1325DD846B2 /* UIView+TYAlertView.m in Sources */,
+				E384C78D80FBCAC352AC024E48DF8325 /* UIView+TYAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D77B4094205869F9B40FF7BC5CC323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15370922DD87DC91A142746DB3F8955E /* Pods-PSTCustomAlertController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AEB0374E5CAA2AA5DEA4CEFF3EE83C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 0C8C5D78485BCE06258C97DD859D1571 /* PBXContainerItemProxy */;
+		};
+		93FF6EB28824B950EED912259C040FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 66B0539D22A47F3D85BA9B88DAA87EBB /* PBXContainerItemProxy */;
+		};
+		9653CC6BB5F79EE39BFC7894866CC7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PSTCustomAlertController_Example";
+			target = 90725B5F415FE6F20E6248C236809D7F /* Pods-PSTCustomAlertController_Example */;
+			targetProxy = E60138867B7B484E1BBFF59A295E6BA4 /* PBXContainerItemProxy */;
+		};
+		9E188942EAAA1B69B016264D8B548749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSTCustomAlertController;
+			target = 1AD66F7FECDE7ED339D0A9FBFE3A5F68 /* PSTCustomAlertController */;
+			targetProxy = 2D100E8479AD6CA6FAE04B28CF84FBBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0458247E2537609A6024C3E4D71EBE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AEE73C4BE8337C62FC161D79D66E34 /* PSTCustomAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSTCustomAlertController/PSTCustomAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSTCustomAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSTCustomAlertController/PSTCustomAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PSTCustomAlertController;
+				PRODUCT_NAME = PSTCustomAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3845069A573E47CF21533487C497A730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74A341B819CAE31FF3ED2DC4D06794D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F75F3D2D15E9E3996DA2CFAB5F86959 /* Pods-PSTCustomAlertController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTCustomAlertController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTCustomAlertController_Example/Pods-PSTCustomAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		775293F641258FEEAEAC29FF2F0DB2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D7D58BEA77146A24125AC18F33B44E /* Pods-PSTCustomAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTCustomAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTCustomAlertController_Tests/Pods-PSTCustomAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		886090782C6170BF54BF1DB71E8B974F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8716E3E12FBDB49276974372A0B062 /* Pods-PSTCustomAlertController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTCustomAlertController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTCustomAlertController_Example/Pods-PSTCustomAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E3115A16A88336F1A7512C06F891E873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AEE73C4BE8337C62FC161D79D66E34 /* PSTCustomAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSTCustomAlertController/PSTCustomAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSTCustomAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSTCustomAlertController/PSTCustomAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PSTCustomAlertController;
+				PRODUCT_NAME = PSTCustomAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9E41027B23D27C03AB9120A8E4EACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35BF514FDFAB7C3C7379F3811425EE0 /* Pods-PSTCustomAlertController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSTCustomAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSTCustomAlertController_Tests/Pods-PSTCustomAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE3EC76958EB417BB5A9577967FD1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3845069A573E47CF21533487C497A730 /* Debug */,
+				FE3EC76958EB417BB5A9577967FD1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0B93BE9B7D84181B37794442474A6C /* Build configuration list for PBXNativeTarget "Pods-PSTCustomAlertController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775293F641258FEEAEAC29FF2F0DB2BC /* Debug */,
+				E9E41027B23D27C03AB9120A8E4EACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28AAC8C3482D6D708E986C079E3FC09 /* Build configuration list for PBXNativeTarget "Pods-PSTCustomAlertController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886090782C6170BF54BF1DB71E8B974F /* Debug */,
+				74A341B819CAE31FF3ED2DC4D06794D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD51846118EA815AFE533E6F8ABFE7F9 /* Build configuration list for PBXNativeTarget "PSTCustomAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3115A16A88336F1A7512C06F891E873 /* Debug */,
+				0458247E2537609A6024C3E4D71EBE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

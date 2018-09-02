@@ -1,0 +1,6 @@
+framework module PSTCustomAlertController {
+  umbrella header "PSTCustomAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -21,7 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		996E2ABF955F8CE72BE2E502 /* Pods_PSTCustomAlertController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13841FE89E2E39D5DA4430B9 /* Pods_PSTCustomAlertController_Example.framework */; };
 		AE80C804D728D0B029ABEB53 /* Pods_PSTCustomAlertController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C589ACB091BB24821E24F7CB /* Pods_PSTCustomAlertController_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023E7AE1DED4D1A941B49F5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		023E7AE1DED4D1A941B49F5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1076C1C41D60E071C1576349 /* Pods-PSTCustomAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTCustomAlertController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSTCustomAlertController_Example/Pods-PSTCustomAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		13841FE89E2E39D5DA4430B9 /* Pods_PSTCustomAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTCustomAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		347350CCA5C27C443A485D5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		347350CCA5C27C443A485D5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4637FED134D0A62FEDA33B3C /* Pods-PSTCustomAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTCustomAlertController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSTCustomAlertController_Example/Pods-PSTCustomAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PSTCustomAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSTCustomAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4794C0B79ED339B166D5B89 /* Pods-PSTCustomAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTCustomAlertController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSTCustomAlertController_Tests/Pods-PSTCustomAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C589ACB091BB24821E24F7CB /* Pods_PSTCustomAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTCustomAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78160E764CE59D47F62F83F /* Pods-PSTCustomAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTCustomAlertController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSTCustomAlertController_Tests/Pods-PSTCustomAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC8C34A9A4A71002086D108E /* PSTCustomAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PSTCustomAlertController.podspec; path = ../PSTCustomAlertController.podspec; sourceTree = "<group>"; };
+		FC8C34A9A4A71002086D108E /* PSTCustomAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PSTCustomAlertController.podspec; path = ../PSTCustomAlertController.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +132,6 @@
 			children = (
 				6003F59C195388D20070C39A /* PSTAppDelegate.h */,
 				6003F59D195388D20070C39A /* PSTAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PSTViewController.h */,
 				6003F5A6195388D20070C39A /* PSTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -276,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -301,10 +297,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PSTCustomAlertController_Example/Pods-PSTCustomAlertController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/PSTCustomAlertController/PSTCustomAlertController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PSTCustomAlertController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

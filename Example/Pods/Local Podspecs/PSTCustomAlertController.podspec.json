@@ -1,0 +1,27 @@
+{
+  "name": "PSTCustomAlertController",
+  "version": "0.1.0",
+  "summary": "A short description of PSTCustomAlertController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zzzworm@gmail.com/PSTCustomAlertController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zzzworm@gmail.com": "grant.zhou@ximalaya.com"
+  },
+  "source": {
+    "git": "https://github.com/zzzworm@gmail.com/PSTCustomAlertController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PSTCustomAlertController/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

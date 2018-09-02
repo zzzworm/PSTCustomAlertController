@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface PSTViewController : UIViewController
+@interface PSTViewController : UITableViewController
 
 @end

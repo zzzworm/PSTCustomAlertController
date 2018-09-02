@@ -7,12 +7,23 @@
 //
 
 #import "PSTAppDelegate.h"
+#import "PSTViewController.h"
 
 @implementation PSTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //这里加载第一个页面；
+    UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:[[PSTViewController alloc]init]];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

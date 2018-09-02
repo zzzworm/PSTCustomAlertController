@@ -1,29 +1,19 @@
-# PSTCustomAlertController
+PSTAlertController
+==================
 
-[![CI Status](https://img.shields.io/travis/zzzworm@gmail.com/PSTCustomAlertController.svg?style=flat)](https://travis-ci.org/zzzworm@gmail.com/PSTCustomAlertController)
-[![Version](https://img.shields.io/cocoapods/v/PSTCustomAlertController.svg?style=flat)](https://cocoapods.org/pods/PSTCustomAlertController)
-[![License](https://img.shields.io/cocoapods/l/PSTCustomAlertController.svg?style=flat)](https://cocoapods.org/pods/PSTCustomAlertController)
-[![Platform](https://img.shields.io/cocoapods/p/PSTCustomAlertController.svg?style=flat)](https://cocoapods.org/pods/PSTCustomAlertController)
+API similar to `UIAlertController`, backwards compatible to iOS 7. Will use the new shiny API when you run iOS 8.
 
-## Example
+We cheat a bit by having `PSTAlertController` superclass be `NSObject`, but for most use cases it's still a lot more convenient than using `UIAlertView`/`UIActionSheet`.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Functions that are only possible since `UIAlertController` are not back-ported. This is a simple wrapper to make your life more convenient, not a complete rewrite.
 
-## Requirements
+Written for [PSPDFKit, The leading framework for displaying and annotating PDFs in your iOS apps.](https://pspdfkit.com/).
+It's a commercial library, but sometimes I just love to share.
 
-## Installation
+## Compatbility
 
-PSTCustomAlertController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'PSTCustomAlertController'
-```
-
-## Author
-
-zzzworm@gmail.com, grant.zhou@ximalaya.com
+Tested with iOS 7-9, Xcode 7 and ARC.
 
 ## License
 
-PSTCustomAlertController is available under the MIT license. See the LICENSE file for more info.
+MIT, see LICENSE file.

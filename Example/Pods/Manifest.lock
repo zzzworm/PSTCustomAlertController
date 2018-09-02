@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - PSTCustomAlertController (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - PSTCustomAlertController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  PSTCustomAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PSTCustomAlertController: 208cbf3f2945b6a44ab795aedaf74a3c05cdba19
+
+PODFILE CHECKSUM: 841cf5a085a2f95d3d38203a8ea5ca342d95c771
+
+COCOAPODS: 1.5.3
