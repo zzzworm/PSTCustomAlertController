@@ -7,6 +7,7 @@
 //
 
 #import "PSTViewController.h"
+#import <PSTCustomAlertController/PSTAlertController.h>
 
 @interface PSTViewController ()
 
@@ -57,5 +58,52 @@
             break;
     }
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.row) {
+        case 0:
+            {
+                PSTAlertController *controller = [PSTAlertController alertControllerWithTitle:nil message:NSLocalizedString(@"No WIFI connection. Use Cellular data to download?", nil) preferredStyle:PSTAlertControllerStyleAlert];
+                [controller addAction:[PSTAlertAction actionWithTitle:@"OK" style:PSTAlertActionStyleDestructive handler:nil]];
+                // Cancel action on a sheet should be the last action.
+                [controller addCancelActionWithHandler:nil];
+                [controller showInController:self animated:YES completion:nil];
+            }
+            break;
+        case 1:
+        {
+            PSTAlertController *controller = [PSTAlertController alertControllerWithTitle:NSLocalizedString(@"Choose connection:",nil) message:nil preferredStyle:PSTAlertControllerStyleActionSheet];
+            [controller addAction:[PSTAlertAction actionWithTitle:@"Wifi" style:PSTAlertActionStyleDefault handler:nil]];
+            [controller addAction:[PSTAlertAction actionWithTitle:@"3G/4G" style:PSTAlertActionStyleDefault handler:nil]];
+            // Cancel action on a sheet should be the last action.
+            [controller addCancelActionWithHandler:nil];
+            [controller showInController:self animated:YES completion:nil];
+        }
+            break;
+        case 2:
+        {
+            PSTAlertController *controller = [PSTAlertController alertControllerWithTitle:nil message:NSLocalizedString(@"No WIFI connection. Use Cellular data to download?", nil) preferredStyle:PSTAlertControllerStyleCustomAlert];
+            [controller addAction:[PSTAlertAction actionWithTitle:@"OK" style:PSTAlertActionStyleDestructive handler:nil]];
+            // Cancel action on a sheet should be the last action.
+            [controller addCancelActionWithHandler:nil];
+            [controller showInController:self animated:YES completion:nil];
+        }
+            break;
+        case 3:
+        {
+            PSTAlertController *controller = [PSTAlertController alertControllerWithTitle:NSLocalizedString(@"Choose connection:",nil) message:nil preferredStyle:PSTAlertControllerStyleCustomActionSheet ];
+            [controller addAction:[PSTAlertAction actionWithTitle:@"Wifi" style:PSTAlertActionStyleDefault handler:nil]];
+            [controller addAction:[PSTAlertAction actionWithTitle:@"3G/4G" style:PSTAlertActionStyleDefault handler:nil]];
+            // Cancel action on a sheet should be the last action.
+            [controller addCancelActionWithHandler:nil];
+            [controller showInController:self animated:YES completion:nil];
+            
+        }
+            break;
+        default:
+            break;
+    }
 }
 @end

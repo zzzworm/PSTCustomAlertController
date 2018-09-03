@@ -20,7 +20,7 @@
 #import "TYShowAlertView.h"
 #import "UIView+TYAlertView.h"
 #import "UIView+TYAutoLayout.h"
-#import "UIView+sides.h"
+#import "UIView+borders.h"
 
 FOUNDATION_EXPORT double PSTCustomAlertControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char PSTCustomAlertControllerVersionString[];
