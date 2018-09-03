@@ -2,8 +2,8 @@ PSTCustomAlertController
 ==================
 
 A `AlertControler` base on [PSTAlertController](https://github.com/steipete/PSTAlertController) and [TYAlertController](https://github.com/12207480/TYAlertController).
-`PSTAlertController` bring a
-API similar to `UIAlertController` AlertController, and backwards compatible to iOS 7. Will use the new shiny API when you run iOS 8. It use the iOS system UI elements. `TYAlertController` is also a API similar to `UIAlertController` AlertController, but totally use custom UI elements.I'd like bring them together. So I enhanced `PSTAlertController` with custom styles, which you can just chose different sytle to swith between the system or custom UI.    
+
+`PSTAlertController` bring a API similar to `UIAlertController` AlertController, and backwards compatible to iOS 7. Will use the new shiny API when you run iOS 8. It use the iOS system UI elements. `TYAlertController` is also a API similar to `UIAlertController` AlertController, but totally use custom UI elements.I'd like bring them together. So I enhanced `PSTAlertController` with custom styles, which you can just chose different sytle to swith between the system or custom UI.    
 
 use as system AlertControler:
 ```
